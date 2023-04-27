@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline - The Compound</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dongle">
+    <style>
+        .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9 {
+            overflow-x: scroll;
+        }
+        head, body, html {
+            background-color: lightgrey;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        .body {
+            background-color: grey;
+            width: 95%;
+            height: 950%;
+            border-radius: 30px;
+            margin: 1.25% 1.25% 1.25% 1.25%;
+            position: absolute;
+            text-align: center;
+            box-shadow: 10px 10px 5px #999999;
+        }
+        p, h1 {
+            color: rgb(32,32,32);
+            font-size: 400%;
+            font-family: Dongle, monospace;
+            margin: 0;
+        }
+        p {
+            font-size: 225%
+        }
+        .top {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 1%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 17.5%) 
+        }
+        .t1 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 17.5%);
+            overflow: scroll;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            background-color: rgb(75,75,75);
+            border-radius: 15px;
+        }
+        .t2 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 120%);
+            overflow: scroll;
+        }
+        .t3 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 222.5%);
+            overflow: scroll;
+        }
+        div {
+            border-radius: 5px;
+            background-color: grey;
+            /*margin: 10px;
+            padding: 10px;*/
+            box-shadow: 10px 10px 5px #545454;
+        }
+        .t4 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 325%);
+            overflow: scroll;
+        }
+        .t5 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 427.5%);
+            overflow: scroll;
+        }
+        .t6 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 7.5%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 530%);
+            overflow: scroll;
+        }
+        .t7 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 8%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 600%);
+            overflow: scroll;
+        }
+        .t8 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 10%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 556%);
+            overflow: scroll;
+        }
+        .t9 {
+            padding: 0;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 18%;
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            transform: translate(1.25%, 365%);
+            overflow: scroll;
+        }
+        .bottom {
+            margin-right: 1.25%;
+            margin-left: 1.25%;
+            background-color: dimgrey;
+            width: 97.5%;
+            height: 16%;
+            transform: translate(0%, 523.5%);
+            border-radius: 15px;
+            position: absolute;
+            text-align: center;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <!--IMAGES FROM boxicons.com-->
+    <div class="body">
+        <div class="top">
+            <h1>The Compound - Timeline</h1>
+        </div>
+        <div class="t1">
+            <h1>Event 1: Lockdown</h1>
+            <img src="Images/t1.png">
+            <p>This is when Eli, his Mom, his Dad, and his 2 sisters, Terese and Lexie are all locked into the compound because of an nuclear attack. Sadly, Gram, Eddy, and their dog was lost to the blast. To Eli, Eddy was one of his only friends. Eddy and Eli did everything together. For anything Eli had to go through, Eli was there to help him. Their Dad showed them around the compound that he had built. He said that it would be prepared for up to 15 years, when they could leave.</p>
+        </div>
+        <div class="t2" id="t2">
+            <h1>Event 2: Running Out</h1>
+            <img src="Images/t2.png">
+            <p>6 years later, The Compound started to run out of different foods. This included flour, RTE's (ready to eat), milk, fresh meats, and much more. They were losing the milk and meat because of a water problem for the animals. Poison from the rats in the walls had gotten into the water tank for the animals. This had caused all of the animals to die within a few days. Eli started to question if he would take his chances outside, rather than inside.</p>
+        </div>
+        <div class="t3" id="t3">
+            <h1>Event 3: Connection</h1>
+            <img src="Images/t3.png">
+            <p>A few weeks later Eli's Dad starts acting like he is hiding something. One day, Eli's sits outside of his office with his computer and something that he had never seen before had appeared on his laptop. <strong>Internet Connection Available.</strong> Eli had never seen anything like this before. Later that day, Eli's dad said there was something he needed to tell him. He had told him about how he had gotten internet connection and had contacted another family that was in hiding too. Eli was shocked.</p>
+        </div>
+        <div class="t4" id="t4">
+            <h1>Event 4: Welcome</h1>
+            <img src="Images/t4.png">
+            <p>About a week later, Eli meets 2 new family members. Terese brings one of the two babies to Eli's room to wake him up. This is when Eli is touched on the skin for the first time since he entered The Compound. The baby had touched him on the forehead. Eli took a shower as hot as it could get. He tried to wash away the feeling of the baby and the thought of that his dad had hidden such a big thing from them.</p>
+        </div>
+        <div class="t5" id="t5">
+            <h1>Event 5: Connection Available</h1>
+            <img src="Images/t5.png">
+            <p>Eli had decided that today was the day. The day he would try to connect to the internet again. Eli grabbed his computer and walked to his dad's office. When Eli arrived at his dad's office, he took a seat next to the office and turned on his computer. <strong>Internet Connection Available.</strong> Eli clicked on it. <strong>Internet Connected.</strong> Another message came after that. <strong>Welcome TwinYan2! The following friends are online: TwinYan1.</strong> Eddy's Username.</p>
+        </div>
+        <div class="t6" id="t6">
+            <h1>Event 6: Who's This?</h1>
+            <img src="Images/t6.png">
+            <p>Eli clicked on the message. <strong>One Unread Message from TwinYan1!</strong> The message was: 'WRU'. Eli replied. Another Reply. Now Eli typed: 'eddy? this is eli'. Another response: 'how did u get this username'. 'This is e'. We talked for a few minuites. 'where ru?' Then, Eddy spilled the beans. 'we are at the house.' Eli responded, 'YOURE ALIVE? THERE WAS NO NUKING?' Eli heard walking from his Dad's office. Dad saw the laptop. "Where did you get that?" Eli responded, "Eddy's room." His Dad took the laptop and handed him a new one. Eli knew that there would be no more talking to Eddy.</p>
+        </div> 
+        <div class="t7" id="t7">
+            <h1>Event 7: Lies</h1>
+            <img src="Images/t7.png">
+            <p>Still an hour later, Eli didn't know what to do. He couldn't belive that all of the nuking stuff was a <strong>lie</strong>. He had to tell his Mom. Eli told his Mom about Eddy and how that he thinks that the nuking is a lie. Then Eli's Dad walks in when Eli was about done talking. "What are you talking about?" he says in a stern voice. Then Eli complains that they have been stuck in The Compound for 6 years and that they should leave. "THERE WAS NO NUKE," Eli yells at his dad, "you sould let us out. You owe us that." "I owe you nothing," he responds, "I set all this up. I wanted this to seem that it was real. That's why I left Eddy and Gram."</p>
+        </div>
+        <div class="t8" id="t8">
+            <h1>Event 8: A Clue Leads to another...</h1>
+            <img src="Images/t8.png">
+            <p>After what his Dad had just said, Eli knew what he needed to do, punch his Dad in the face. Eli didn't really expect this to be his reaction as his Dad fell to the ground from the impact. His Mom rushed over a few seconds later, "He's cold. Eli, go get the Gurney." Eli rushed out of the living room to get the Gurney out of the medical room. When Eli got back, him and his Mom both put him on it and pushed him to the medical room. Then came the symptoms. Eli's dad had, seizures, vomiting, extreme cough and more. Eli rushed to the library to find if he could find anything about his symptoms. Only one thing matched, Ergotism. Only a few seconds later, his Dad passed out with his final words being, "Turducken".</p>
+        </div>
+        <div class="t9" id="t9">
+            <h1>Event 9: Gone Rogue</h1>
+            <img src="Images/t9.png">
+            <p>Eli's Mom told him that One clue leads to another, and another to another, and then to an answer. Eli knew this meant something to do with "Turducken". Eli thought for awile then came up with more and more clues, eventually leading to a answer. That answer was a blank peice of parchment paper. Except, it was not blank. There was the code to the door written in invisible ink. Eli remembered that his Dad had tought him that a certain chemical revealed this ink. Eli poured the chemical on it to reveal the code. His Dad walked into the chemistry room and started getting mad. Eli got out of there. Eli ran out of the chemistry room and towards the door. He started to punch in the code, but his Dad came to him threatening him with one of his brothers. He handed over the code and Dad handed him his brother and ran off. Eli then ran to his room to figure out the code from what he remembered. Once he had the code, he returned to the door and punched it in. He ran up the stairs and found his last obstacle the hatch. Eli tried to push it out but it didn't move. He removed some dirt, and tried again. This time it did. Eli exited The Compound and ejoyed the view. But then, his Dad closes the hatch locking him out. Then later, a helicopter flies over and lands. It was his Dad's assistant, Phil. Phil helped his Dad out of the compound and handed him the exposive switch. Then, again, Eli punches his Dad. The switch falls to the ground and sets off the 10 minuite timer. Eli rushes in to save his family, so does Dad. When Eli, his Mom, his sisters, and his other siblings are out, The Compound Explodes, Dad goes with it. Eli and the rest of his family wait the night out. Then more helicopters land nearby. Hundreds of people get out running towards them, one of them was Eddy.</p>
+        </div>
+        <div class="bottom" id="bottom">
+            <h1>Other</h1>
+            <br><br>
+            <p><strong>Event 1:</strong> ch1 - ch2</p>
+            <p><strong>Event 2:</strong> ch2 - ch7</p>
+            <p><strong>Event 3:</strong> ch7 - ch8</p>
+            <p><strong>Event 4:</strong> ch8 - ch9</p>
+            <p><strong>Event 5:</strong> ch13 - ch14</p>
+            <p><strong>Event 6:</strong> ch14 - ch15</p>
+            <p><strong>Event 7:</strong> ch15</p>
+            <p><strong>Event 8:</strong> ch15 - ch16</p>
+            <p><strong>Event 9:</strong> ch18 - ch21</p>
+            <br><br>
+            <p><strong>Book:</strong> The Compound by S.A. Bodeen</p>
+            <br><br>
+            <p><strong>Ms. Carney:</strong> Assignment</p>
+            <br><br>
+            <p><strong>Caden M:</strong> Reading and Creation of this page</p> 
+            <br><br>
+            <p><strong>Google Fonts:</strong> Inconsolata Font</p>
+            <br><br>
+            <p><strong>boxicons.com:</strong> Icons</p>
+            <br><br>
+            <p><strong>stackoverflow.com:</strong> Help with Scrolling Animation</p>
+        </div>
+    </div>
+    <script>
+        //window.pageYOffset 
+        //scroll of the page
+        function update () {
+            //event 2
+            let start = 0
+            let end = document.getElementById("t2").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t2").style.transform = "translate(1.25%, 120%)"
+                    document.getElementById("t2").style.opacity = 1
+                } else {
+                    document.getElementById("t2").style.transform = "translate("+((((end-window.pageYOffset))/-10)+1.25)+"%, 120%)"
+                    document.getElementById("t2").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t2").style.opacity = 0
+            }
+            //event 3
+            start += document.getElementById("t3").clientHeight+2.5
+            end += document.getElementById("t3").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t3").style.transform = "translate(1.25%, 222.5%)"
+                    document.getElementById("t3").style.opacity = 1
+                } else {
+                    document.getElementById("t3").style.transform = "translate("+((((end-window.pageYOffset))/-10)+1.25)+"%, 222.5%)"
+                    document.getElementById("t3").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t3").style.opacity = 0
+            }
+            //event 4
+            start += document.getElementById("t4").clientHeight+2.5
+            end += document.getElementById("t4").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t4").style.transform = "translate(1.25%, 325%)"
+                    document.getElementById("t4").style.opacity = 1
+                } else {
+                    document.getElementById("t4").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 325%)"
+                    document.getElementById("t4").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t4").style.opacity = 0
+            }
+            //event 5
+            start += document.getElementById("t5").clientHeight+2.5
+            end += document.getElementById("t5").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t5").style.transform = "translate(1.25%, 427.5%)"
+                    document.getElementById("t5").style.opacity = 1
+                } else {
+                    document.getElementById("t5").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 427.5%)"
+                    document.getElementById("t5").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t5").style.opacity = 0
+            }
+            //event 6
+            start += document.getElementById("t6").clientHeight+2.5
+            end += document.getElementById("t6").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t6").style.transform = "translate(1.25%, 530%)"
+                    document.getElementById("t6").style.opacity = 1
+                } else {
+                    document.getElementById("t6").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 530%)"
+                    document.getElementById("t6").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t6").style.opacity = 0
+            }
+            //event 7
+            start += document.getElementById("t7").clientHeight+2.5
+            end += document.getElementById("t7").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t7").style.transform = "translate(1.25%, 592.5%)"
+                    document.getElementById("t7").style.opacity = 1
+                } else {
+                    document.getElementById("t7").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 592.5%)"
+                    document.getElementById("t7").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t7").style.opacity = 0
+            }
+            //event 8
+            start += document.getElementById("t8").clientHeight+2.5
+            end += document.getElementById("t8").clientHeight+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t8").style.transform = "translate(1.25%, 556%)"
+                    document.getElementById("t8").style.opacity = 1
+                } else {
+                    document.getElementById("t8").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 556%)"
+                    document.getElementById("t8").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t8").style.opacity = 0
+            }
+            //event 9
+            start += (document.getElementById("t9").clientHeight/2+2.5)
+            end += document.getElementById("t9").clientHeight/2+2.5
+            if (window.pageYOffset > start) {
+                if (window.pageYOffset > end) {
+                    document.getElementById("t9").style.transform = "translate(1.25%, 365%)"
+                    document.getElementById("t9").style.opacity = 1
+                } else {
+                    document.getElementById("t9").style.transform = "translate("+(((end-(window.pageYOffset))/-10)+1.25)+"%, 365%)"
+                    document.getElementById("t9").style.opacity = ((window.pageYOffset-start)/(end-start))
+                }
+            } else {
+                document.getElementById("t9").style.opacity = 0
+            }
+            requestAnimationFrame(update)
+        }
+        let timer = 0
+        function timerinc () {
+            timer += 0.01
+        }
+        setInterval(timerinc, 10)
+        update()
+    </script>
+</body>
+</html>
